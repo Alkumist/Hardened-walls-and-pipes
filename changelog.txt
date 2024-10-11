@@ -1,12 +1,13 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.4
-Date: ????
+Version: 1.1.0
+Date: 2024-10-11
   Changes:
+    - Changed hardened wall recipe to be a Smelted version of wall, or concrete wall
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2024-10-11
   Changes:
-    - Changed the hardened all recipe to include mod walls, specifically AAi Concrete wall, or Clippy's Concrete wall
+    - Changed the hardened wall recipe to include mod walls, specifically AAi Concrete wall, or Clippy's Concrete wall
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 1.13.2024
