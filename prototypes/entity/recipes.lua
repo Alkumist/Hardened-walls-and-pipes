@@ -4,11 +4,11 @@ if mods["aai-industry"] then
 			-- data.raw["wall"]["concrete-wall"].next_upgrade = "hardened-wall"
 			type = "recipe",
 			name = "hardened-wall",
+			category = "smelting",
 			enabled = false,
-			energy_required = 0.5,
+			energy_required = 4,
 			ingredients = {
-				{type = "item", name = "iron-stick", amount = 2},
-				{type = "item", name = "concrete-wall", amount = 1},
+				{type = "item", name = "concrete-wall", amount = 2},
 			},
 			result = "hardened-wall",
 		}
@@ -19,11 +19,11 @@ elseif mods["ConcreteWall"] then
 	    	-- data.raw["wall"]["stone-wall-2"].next_upgrade = "hardened-wall"
 			type = "recipe",
 			name = "hardened-wall",
+			category = "smelting",
 			enabled = false,
-			energy_required = 0.5,
+			energy_required = 4,
 			ingredients = {
-				{type = "item", name = "iron-stick", amount = 2},
-				{type = "item", name = "stone-wall-2", amount = 1},
+				{type = "item", name = "stone-wall-2", amount = 2},
 			},
 			result = "hardened-wall",
 		}
@@ -33,11 +33,10 @@ else
 		{
 	    	type = "recipe",
 			name = "hardened-wall",
+			category = "smelting",
 			enabled = false,
-			energy_required = 0.5,
+			energy_required = 4,
 			ingredients = {
-				{type = "item", name = "concrete", amount = 5},
-				{type = "item", name = "iron-stick", amount = 2},
 				{type = "item", name = "stone-wall", amount = 2},
 			},
 			result = "hardened-wall",
