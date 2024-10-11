@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
-Date: 10.10.2024
+Date: 2024-10-11
   Changes:
     - Changed the hardened all recipe to include mod walls, specifically AAi Concrete wall, or Clippy's Concrete wall
 ---------------------------------------------------------------------------------------------------
