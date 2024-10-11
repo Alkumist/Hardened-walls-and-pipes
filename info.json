@@ -1,0 +1,9 @@
+{
+    "name": "Hardened-walls-and-pipes",
+    "version": "1.0.2",
+    "title": "Hardened walls and pipes",
+    "author": "Alkumist",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1", "?aai-industry >= 0.5.20", "?ConcreteWall >= 1.0.4"],
+    "description": "Hardened walls and pipes good for defenive structures"
+}

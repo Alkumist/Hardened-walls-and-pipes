@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 1.13.2024
+  Changes:
+    - Changed hardened wall recipe
+    - Changed hardened wall technology prerequisites
+  Additions:
+    - Added support for concrete wall by Clippy
+    - Added hardened gate as upgrade for gate
+    - Added hardened wall as upgrade for stone wall 
+    - Added hardened wall as upgrade for concrete wall from concrete wall by Clippy if enabled
+    - Added hardened wall as upgrade for concrete wall from AAi if enabled
+    - Added Steel wall as upgrade for hardened wall if AAi is enabled
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 5.25.2023
+  Bugfixes:
+    - fixed locale
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 5.20.2023
+  Additions:
+    - Added hardened wall
+    - Added hardened gate
+    - Added hardened pipe
