@@ -1,6 +1,6 @@
 data:extend({
-	{
-		if mods["aai-industry"] then
+	if mods["aai-industry"] then
+		{
     			-- data.raw["wall"]["concrete-wall"].next_upgrade = "hardened-wall"
 			type = "recipe",
 			name = "hardened-wall",
@@ -11,7 +11,9 @@ data:extend({
 				{type = "item", name = "concrete-wall", amount = 1},
 			},
 			result = "hardened-wall",
-		elseif mods["ConcreteWall"] then
+		}
+	elseif mods["ConcreteWall"] then
+		{
     			-- data.raw["wall"]["stone-wall-2"].next_upgrade = "hardened-wall"
 			type = "recipe",
 			name = "hardened-wall",
@@ -22,7 +24,9 @@ data:extend({
 				{type = "item", name = "stone-wall-2", amount = 1},
 			},
 			result = "hardened-wall",
-		else
+		}
+	else
+		{
     			type = "recipe",
 			name = "hardened-wall",
 			enabled = false,
@@ -33,7 +37,8 @@ data:extend({
 				{type = "item", name = "stone-wall", amount = 2},
 			},
 			result = "hardened-wall",
-		end
+		}
+	end
 	},
 
 	{
